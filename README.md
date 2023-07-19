@@ -7,7 +7,7 @@ for the Pico with an attached Lipo-Shim and a small LiPo-battery.
 ![](bottom.jpg)
 
 The design is optimized for use with this
-[LogicAnalyser](https://github.com/gusmanb/logicanalyzer) but can
+[LogicAnalyzer](https://github.com/gusmanb/logicanalyzer) but can
 be adapted for any other use-case.
 
 There are three printable parts:
