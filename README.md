@@ -1,11 +1,42 @@
-A case for the Pico with Pimoroni's Lipo-Ship
+A case for the Pico with Pimoroni's Lipo-Shim
 =============================================
 
 This project provides the 3D-design-files (OpenSCAD) for a case
 for the Pico with an attached Lipo-Shim and a small LiPo-battery.
 
+![](bottom.jpg)
+
 The design is optimized for use with this
-[LogicAnalyser](https://github.com/gusmanb/logicanalyzer).
+[LogicAnalyser](https://github.com/gusmanb/logicanalyzer) but can
+be adapted for any other use-case.
+
+There are three printable parts:
+
+  - the main case
+  - a battery shield
+  - the top lid
+
+![](parts.jpg)
+
+The dimensions (all in `dimensions.scad`) are tight and have to be
+adapted to your printer. You can use screws to fasten the Pico to
+the case, but that was not necessary in my case.
+
+![](complete.jpg)
+
+
+Mods
+----
+
+The Lipo-Shim has two leds, one for power and one for charging. The
+latter does not hurt, but in battery operation you can minimize
+current draw by destroying the power-led.
+
+In contrast, if you want to better see the power-status, just connect
+a led (+resistor) to the 3V3 pin. Adapting the design for this
+mod would be useful (pull requests are welcome). 
+
+
 
 
 License
